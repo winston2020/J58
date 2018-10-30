@@ -1258,7 +1258,7 @@
         <div class="cztxxb1z">
             <!--分享-->
             <div class="bshare-custom" style="background:#fff;width:90px;border:1px solid #e5e5e5;padding:6px 0 6px 4px;position:absolute;top:12px;left:580px;">
-                <span style="color:#077fd3; cursor:pointer;background:url({{url(\App\Lable::ImgUrl())}}) no-repeat right;" title="分享到" href="{{\App\Lable::LinkUrl()}}" id="bshare-shareto" class="">我要分享 &nbsp;</span><br>
+                <span style="color:#077fd3; cursor:pointer;background:url(/{{url(\App\Lable::ImgUrl())}}) no-repeat right;" title="分享到" href="{{\App\Lable::LinkUrl()}}" id="bshare-shareto" class="">我要分享 &nbsp;</span><br>
 
                 <div id="ld_fxhide" style="display:none;padding-top:10px;">
                     <a style="margin-bottom:8px;color:#595959;font-weight:bold;" title="分享到新浪微博" class="bshare-sinaminiblog">新浪微博</a><br>

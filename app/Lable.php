@@ -14,6 +14,13 @@ class Lable extends Model
         $filearr = Storage::files('data/BcKeyword');
         $data =  file(public_path(array_random($filearr)));
         $res = array_random($data,$count);
+        if (is_array($res)){
+            foreach ($res as $item){
+                $res[]=self::clear($item);
+            }
+        }else{
+            $res = self::clear($res);
+        }
         return $res;
     }
 
@@ -22,6 +29,13 @@ class Lable extends Model
         $filearr = Storage::files('data/Title');
         $data =  file(public_path(array_random($filearr)));
         $res = array_random($data,$count);
+        if (is_array($res)){
+            foreach ($res as $item){
+                $res[]=self::clear($item);
+            }
+        }else{
+            $res = self::clear($res);
+        }
         return $res;
     }
 
@@ -30,6 +44,13 @@ class Lable extends Model
         $filearr = Storage::files('data/City');
         $data =  file(public_path(array_random($filearr)));
         $res = array_random($data,$count);
+        if (is_array($res)){
+            foreach ($res as $item){
+                $res[]=self::clear($item);
+            }
+        }else{
+            $res = self::clear($res);
+        }
         return $res;
     }
 
@@ -38,6 +59,13 @@ class Lable extends Model
         $filearr = Storage::files('data/Content');
         $data =  file(public_path(array_random($filearr)));
         $res = array_random($data,$count);
+        if (is_array($res)){
+            foreach ($res as $item){
+                $res[]=self::clear($item);
+            }
+        }else{
+            $res = self::clear($res);
+        }
         return $res;
     }
 
@@ -53,6 +81,13 @@ class Lable extends Model
         $filearr = Storage::files('data/Nav');
         $data =  file(public_path(array_random($filearr)));
         $res = array_random($data,$count);
+        if (is_array($res)){
+            foreach ($res as $item){
+                $res[]=self::clear($item);
+            }
+        }else{
+            $res = self::clear($res);
+        }
         return $res;
     }
 
@@ -61,6 +96,13 @@ class Lable extends Model
         $filearr = Storage::files('data/Author');
         $data =  file(public_path(array_random($filearr)));
         $res = array_random($data,$count);
+        if (is_array($res)){
+            foreach ($res as $item){
+                $res[]=self::clear($item);
+            }
+        }else{
+            $res = self::clear($res);
+        }
         return $res;
     }
 
@@ -69,6 +111,13 @@ class Lable extends Model
         $filearr = Storage::files('data/NavLink');
         $data =  file(public_path(array_random($filearr)));
         $res = array_random($data,$count);
+        if (is_array($res)){
+            foreach ($res as $item){
+                $res[]=self::clear($item);
+            }
+        }else{
+            $res = self::clear($res);
+        }
         return $res;
     }
 
@@ -77,6 +126,13 @@ class Lable extends Model
         $filearr = Storage::files('data/Link');
         $data =  file(public_path(array_random($filearr)));
         $res = array_random($data,$count);
+        if (is_array($res)){
+            foreach ($res as $item){
+                $res[]=self::clear($item);
+            }
+        }else{
+            $res = self::clear($res);
+        }
         return $res;
     }
 
@@ -85,6 +141,13 @@ class Lable extends Model
         $filearr = Storage::files('data/Normalkeyword');
         $data =  file(public_path(array_random($filearr)));
         $res = array_random($data,$count);
+        if (is_array($res)){
+            foreach ($res as $item){
+                $res[]=self::clear($item);
+            }
+        }else{
+            $res = self::clear($res);
+        }
         return $res;
     }
 
@@ -94,6 +157,11 @@ class Lable extends Model
         $start_time = strtotime($start_time);
         $end_time = strtotime($end_time);
         return date('Y-m-d H:i:s', mt_rand($start_time,$end_time));
+    }
+
+    public static function clear($str)
+    {
+        return str_replace(array("\r\n", "\r", "\n" ,"\t"), "", $str);
     }
 
 }

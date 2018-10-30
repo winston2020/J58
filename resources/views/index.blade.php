@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
     <meta http-equiv="Cache-Control" content="no-siterpg">
     <meta http-equiv="Cache-Control" content="no-transform">
-    <title>{{ $bckeword = \App\Lable::BcKeyword() }}</title>
+    <title>{{ $bckeword = \App\Lable::BcKeyword()  }}</title>
     <link href="{{url('css/ch_css_ch_2014.css')}}" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="{{url('js/jquery.js')}}"></script>
     <script type="text/javascript" src="{{url('js/koala.min.1.5.js')}}"></script>

@@ -1318,8 +1318,8 @@
                             <p style="color:#005759">{!! $bckeword !!}　　{!!  (str_limit(\App\Lable::Content(),300,'...'))!!}</p>
                             <p style="color:#575815">　{!! $bckeword !!}　{!!  (str_limit(\App\Lable::Content(),300,'...'))!!}</p>
                             <p style="color:#838738">　<strong>{!! $bckeword !!}　{!! (str_limit(\App\Lable::Content(),300,'...')) !!}</strong></p>
-                            <p style="color:#970571">　　{!! (str_limit(\App\Lable::Content(),300,'...')) !!}&#65533;&#65533;
-                                <a href="{{\App\Lable::LinkUrl()}}" target="_blank">{!! $bckeword !!}</a>&#65533;{!!(str_limit(\App\Lable::Content(),300,'...'))!!}</p>
+                            <p style="color:#970571">　　{!! (str_limit(\App\Lable::Content(),300,'...')) !!}
+                                <a href="{{\App\Lable::LinkUrl()}}" target="_blank">{!! $bckeword !!}</a>{!!(str_limit(\App\Lable::Content(),300,'...'))!!}</p>
                             <p align="center">{!! (str_limit(\App\Lable::Content(),300,'...')) !!}</p>
                             <p style="color:#294587">　{!! (str_limit(\App\Lable::Content(),300,'...')) !!}</p>
                             <p align="left"><strong>　　相关链接：</strong></p>

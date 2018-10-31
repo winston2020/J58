@@ -16,12 +16,12 @@ class Lable extends Model
         $res = array_random($data,$count);
         if (is_array($res)){
             foreach ($res as $item){
-                $res[]=self::clear($item);
+                $newres[]=self::clear($item);
             }
         }else{
-            $res = self::clear($res);
+            $newres = self::clear($res);
         }
-        return $res;
+        return $newres;
     }
 
     public static function Title($count=null)
@@ -31,12 +31,12 @@ class Lable extends Model
         $res = array_random($data,$count);
         if (is_array($res)){
             foreach ($res as $item){
-                $res[]=self::clear($item);
+                $newres[]=self::clear($item);
             }
         }else{
-            $res = self::clear($res);
+            $newres = self::clear($res);
         }
-        return $res;
+        return $newres;
     }
 
     public static function City($count=null)
@@ -46,12 +46,12 @@ class Lable extends Model
         $res = array_random($data,$count);
         if (is_array($res)){
             foreach ($res as $item){
-                $res[]=self::clear($item);
+                $newres[]=self::clear($item);
             }
         }else{
-            $res = self::clear($res);
+            $newres = self::clear($res);
         }
-        return $res;
+        return $newres;
     }
 
     public static function Content($count=null)
@@ -61,12 +61,12 @@ class Lable extends Model
         $res = array_random($data,$count);
         if (is_array($res)){
             foreach ($res as $item){
-                $res[]=self::clear($item);
+                $newres[]=self::clear($item);
             }
         }else{
-            $res = self::clear($res);
+            $newres = self::clear($res);
         }
-        return $res;
+        return $newres;
     }
 
     public static function ImgUrl($count=null)
@@ -83,12 +83,12 @@ class Lable extends Model
         $res = array_random($data,$count);
         if (is_array($res)){
             foreach ($res as $item){
-                $res[]=self::clear($item);
+                $newres[]=self::clear($item);
             }
         }else{
-            $res = self::clear($res);
+            $newres = self::clear($res);
         }
-        return $res;
+        return $newres;
     }
 
     public static function Author($count=null)
@@ -98,12 +98,12 @@ class Lable extends Model
         $res = array_random($data,$count);
         if (is_array($res)){
             foreach ($res as $item){
-                $res[]=self::clear($item);
+                $newres[]=self::clear($item);
             }
         }else{
-            $res = self::clear($res);
+            $newres = self::clear($res);
         }
-        return $res;
+        return $newres;
     }
 
     public static function 泛目录格式链接($count=null)
@@ -113,12 +113,12 @@ class Lable extends Model
         $res = array_random($data,$count);
         if (is_array($res)){
             foreach ($res as $item){
-                $res[]=self::clear($item);
+                $newres[]=self::clear($item);
             }
         }else{
-            $res = self::clear($res);
+            $newres = self::clear($res);
         }
-        return $res;
+        return $newres;
     }
 
     public static function LinkUrl($count=null)
@@ -128,12 +128,12 @@ class Lable extends Model
         $res = array_random($data,$count);
         if (is_array($res)){
             foreach ($res as $item){
-                $res[]=self::clear($item);
+                $newres[]=self::clear($item);
             }
         }else{
-            $res = self::clear($res);
+            $newres = self::clear($res);
         }
-        return $res;
+        return $newres;
     }
 
     public static function NormalKeyword($count=null)
@@ -143,12 +143,12 @@ class Lable extends Model
         $res = array_random($data,$count);
         if (is_array($res)){
             foreach ($res as $item){
-                $res[]=self::clear($item);
+                $newres[]=self::clear($item);
             }
         }else{
-            $res = self::clear($res);
+            $newres = self::clear($res);
         }
-        return $res;
+        return $newres;
     }
 
     public static function 随机时间(){

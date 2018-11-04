@@ -3,11 +3,11 @@
     <meta http-equiv="Cache-Control" content="no-siterpg">
     <meta http-equiv="Cache-Control" content="no-transform">
     <title>{{ $bckeword = \App\Lable::BcKeyword()  }}</title>
-    <link href="css/ch_css_ch_2014.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/koala.min.1.5.js'"></script>
-    <script type="text/javascript" src="js/js.js"></script>
-    <script language="JavaScript" type="text/javascript" src="js/ch_js_ch_2014.js"></script>
+    <link href="/pdd/css/ch_css_ch_2014.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/pdd/js/jquery.js"></script>
+    <script type="text/javascript" src="/pdd/js/koala.min.1.5.js'"></script>
+    <script type="text/javascript" src="/pdd/js/js.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/pdd/js/ch_js_ch_2014.js"></script>
     <script>
         (function(){
             var canonicalURL, curProtocol;

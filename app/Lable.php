@@ -108,32 +108,28 @@ class Lable extends Model
 
     public static function 泛目录格式链接($count=null)
     {
-        $filearr = Storage::files('data/NavLink');
-        $data =  file(public_path(array_random($filearr)));
-        $res = array_random($data,$count);
-        if (is_array($res)){
-            foreach ($res as $item){
-                $newres[]=self::clear($item);
-            }
+        $mulu = env('MULU');
+        if ($count==null){
+            $url ='/'.$mulu.str_random(6).'/';
         }else{
-            $newres = self::clear($res);
+            for ($i=0;$i<$count;$i++){
+                $url[] ='/'.$mulu.str_random(6).'/';
+            }
         }
-        return $newres;
+        return $url;
     }
 
     public static function LinkUrl($count=null)
     {
-        $filearr = Storage::files('data/Link');
-        $data =  file(public_path(array_random($filearr)));
-        $res = array_random($data,$count);
-        if (is_array($res)){
-            foreach ($res as $item){
-                $newres[]=self::clear($item);
-            }
+        $mulu = env('MULU');
+        if ($count==null){
+            $url ='/'.$mulu.str_random(6).'/'.str_random(5).'/';
         }else{
-            $newres = self::clear($res);
+            for ($i=0;$i<$count;$i++){
+                $url[] ='/'.$mulu.str_random(6).'/'.str_random(5).'/';
+            }
         }
-        return $newres;
+        return $url;
     }
 
     public static function NormalKeyword($count=null)

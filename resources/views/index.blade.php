@@ -1433,9 +1433,9 @@
 
         <div class="cfootbx" style="background:none; height:70px;">
             <p class="cfootbxp1" style="padding-left:110px;">&#169; 1996 - 2017 中国科学院 版权所有 京ICP备{{rand(100000,999999)}}号&nbsp;&nbsp;京公网安备{{rand(100000,999999)}}号&nbsp;&nbsp;<a href="{{\App\Lable::LinkUrl()}}" target="_blank">可信网站身份验证</a>&nbsp;
-                &nbsp;<a href="/{{env('MULU')}}/sitemap.xml" target="_blank">联系我们</a>&nbsp;
-                &nbsp;<a href="/{{env('MULU')}}/sitemap.xml" target="_blank">站点地图</a>&nbsp;
-                &nbsp;<a href="/{{env('MULU')}}/sitemap.xml" target="_blank">RSS订阅</a>
+                &nbsp;<a href="/{{env('MULU')}}1/sitemap.xml" target="_blank">联系我们</a>&nbsp;
+                &nbsp;<a href="/{{env('MULU')}}2/sitemap.xml" target="_blank">站点地图</a>&nbsp;
+                &nbsp;<a href="/{{env('MULU')}}3/sitemap.xml" target="_blank">RSS订阅</a>
             </p>
 
         </div>

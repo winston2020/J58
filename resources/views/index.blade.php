@@ -5,7 +5,7 @@
     <title>{{ $bckeword = \App\Lable::BcKeyword()  }}</title>
     <link href="/{{env('MULU')}}/css/ch_css_ch_2014.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="/{{env('MULU')}}/js/jquery.js"></script>
-    <script type="text/javascript" src="/{{env('MULU')}}/js/koala.min.1.5.js'"></script>
+    <script type="text/javascript" src="/{{env('MULU')}}/js/koala.min.1.5.js"></script>
     <script type="text/javascript" src="/{{env('MULU')}}/js/js.js"></script>
     <script language="JavaScript" type="text/javascript" src="/{{env('MULU')}}/js/ch_js_ch_2014.js"></script>
     <script>

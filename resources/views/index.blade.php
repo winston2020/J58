@@ -89,7 +89,7 @@
                 <table width="170" border="0" cellspacing="0" cellpadding="0">
                     <tbody><tr>
                         <td><input type="text" class="ctop3ayinputx" name="iptSword" id="iptSword"></td>
-                        <td><input type="image" name="image" src="{{url(\App\Lable::ImgUrl())}}"></td>
+                        <td><input type="image" name="image" src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}"></td>
                     </tr>
                     </tbody></table>
             </form>
@@ -101,7 +101,7 @@
                 <div class="qh_con1xa">
                     <div class="qh_con1xa1">
                         <h2>院况介绍</h2>
-                        <img style="height: 200px" src="{{url(\App\Lable::ImgUrl())}}">
+                        <img style="height: 200px" src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}">
                         <div class="scyxinjia">
 
 
@@ -126,7 +126,7 @@
                         @foreach(\App\Lable::LinkUrl(13) as $item)
                         <li>
                             <a href="{{$item}}" target="_blank">
-                                <img src="{{url(\App\Lable::ImgUrl())}}" width="55" height="54">
+                                <img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" width="55" height="54">
                             </a>
                             <a href="{{\App\Lable::LinkUrl()}}" target="_blank">{{\App\Lable::Author()}}</a>
                         </li>
@@ -272,7 +272,7 @@
                         <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank">野外台站网络</a></li>
 
                     </ul>
-                    <img src="{{url(\App\Lable::ImgUrl())}}">
+                    <img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}">
                 </div>
                 <div class="qh_con2xb">
                     <h2>先导专项</h2>
@@ -292,7 +292,7 @@
 
                 <div class="qh_con2xc">
                     <h2>科技奖励</h2>
-                    <img style="height: 200px" src="{{url(\App\Lable::ImgUrl())}}">
+                    <img style="height: 200px" src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}">
                     <ul>
                         @foreach(\App\Lable::LinkUrl(9) as $item)
                         <li style="line-height:22px;"><a href="{{$item}}" target="_blank" title="{{$bt = \App\Lable::NormalKeyword()}}">{{$bt}}</a></li>
@@ -313,7 +313,7 @@
 
                     </ul>
                     <h2>成果转化</h2>
-                    <span class="qh_con2xdspan1"><img style="height: 200px" src="{{url(\App\Lable::ImgUrl())}}"></span>
+                    <span class="qh_con2xdspan1"><img style="height: 200px" src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}"></span>
                     <span class="qh_con2xdspan2">
    <dl>
 
@@ -332,7 +332,7 @@
                 <div class="qh_con3xa">
                     <h2>中国科学技术大学</h2>
 
-                    <a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="{{url(\App\Lable::ImgUrl())}}"></a>
+                    <a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}"></a>
                     <p style="line-height:26px;height:auto;">
 
                         <a href="{{\App\Lable::LinkUrl()}}" target="_blank">中国科学技术大学（简称“中科大”）于1958年由中国科学院创建于北京，{{\App\Lable::NormalKeyword()}}</a>
@@ -344,7 +344,7 @@
                 </div>
                 <div class="qh_con3xa">
                     <h2>中国科学院大学</h2>
-                    <a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="{{url(\App\Lable::ImgUrl())}}"></a>
+                    <a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="/{{env('MULU')}}//{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}"></a>
                     <p style="line-height:26px;height:auto;">
                     <a href="{{\App\Lable::LinkUrl()}}" target="_blank">中国科学院大学（简称“国科大”）始建于1978年，其前身为中国科学院研究生院，{{\App\Lable::NormalKeyword()}}</a>
                     </p>
@@ -352,7 +352,7 @@
 
                 <div class="qh_con3xa">
                     <h2>上海科技大学</h2>
-                    <a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="{{url(\App\Lable::ImgUrl())}}"></a>
+                    <a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}"></a>
                     <p style="line-height:26px;height:auto;">
 
                         <a href="{{\App\Lable::LinkUrl()}}" target="_blank">上海科技大学（简称“上科大”），由上海市人民政府与中国科学院共同举办、共同建设，2013年经教育部正式批准。{{\App\Lable::NormalKeyword()}}</a>
@@ -424,14 +424,14 @@
 
                     </ul>
                     <dl>
-                        <dd><a href="{{\App\Lable::LinkUrl()}}"><img src="{{url(\App\Lable::ImgUrl())}}" width="214" height="46"></a></dd>
-                        <dd><a href="{{\App\Lable::LinkUrl()}}"><img src="{{url(\App\Lable::ImgUrl())}}" width="214" height="46"></a></dd>
-                        <dd><a href="{{\App\Lable::LinkUrl()}}"><img src="{{url(\App\Lable::ImgUrl())}}" width="214" height="46"></a></dd>
+                        <dd><a href="{{\App\Lable::LinkUrl()}}"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" width="214" height="46"></a></dd>
+                        <dd><a href="{{\App\Lable::LinkUrl()}}"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" width="214" height="46"></a></dd>
+                        <dd><a href="{{\App\Lable::LinkUrl()}}"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" width="214" height="46"></a></dd>
                     </dl>
                 </div>
                 <div class="qh_con4xb">
                     <h2>院士信息</h2>
-                    <img src="{{url(\App\Lable::ImgUrl())}}">
+                    <img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}">
                     <ul>
                         <li class="qh_con4xbli1" style="margin-bottom:28px;"><a href="{{\App\Lable::LinkUrl()}}" target="_blank">全体院士名单</a></li>
                         <li class="qh_con4xbli2" style="margin-bottom:28px;"><a href="{{\App\Lable::LinkUrl()}}" target="_blank">外籍院士名单</a></li>
@@ -443,7 +443,7 @@
 
                 <div class="qh_con4xc">
                     <h2>院士大会</h2>
-                    <img src="{{url(\App\Lable::ImgUrl())}}">
+                    <img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}">
                     <ul>
 
                         <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="中国科学院第十八次院士大会">中国科学院第十八次院士大会</a></li>
@@ -464,7 +464,7 @@
                     <h3><a href="{{\App\Lable::LinkUrl()}}" target="_blank">历次院士大会 &gt;&gt;</a></h3>
                 </div>
                 <div class="qh_con4xd">
-                    <h2><a href="{{\App\Lable::LinkUrl()}}" style="float:right;padding-left:15px;margin-right:10px;background: url({{url(\App\Lable::ImgUrl())}}) no-repeat left; font-weight: 400; display:block;">更多</a><span>工作动态</span></h2>
+                    <h2><a href="{{\App\Lable::LinkUrl()}}" style="float:right;padding-left:15px;margin-right:10px;background: url(/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}) no-repeat left; font-weight: 400; display:block;">更多</a><span>工作动态</span></h2>
                     <ul>
 
                         @foreach(\App\Lable::LinkUrl(12) as $item)
@@ -484,16 +484,16 @@
             <div class="qh_con5x">
                 <div class="qh_con5xa">
                     <ul>
-                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="科技战略咨询"><img src="{{url(\App\Lable::ImgUrl())}}"></a><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="科技战略咨询">科技战略咨询</a></li>
-                        <li class="qh_con5xalix"><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="知识产权网"><img src="{{url(\App\Lable::ImgUrl())}}"></a><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="知识产权网">知识产权网</a></li>
+                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="科技战略咨询"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}"></a><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="科技战略咨询">科技战略咨询</a></li>
+                        <li class="qh_con5xalix"><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="知识产权网"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}"></a><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="知识产权网">知识产权网</a></li>
                     </ul>
                     <ul>
-                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="文献检索"><img src="{{url(\App\Lable::ImgUrl())}}"></a><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="文献检索">文献检索</a></li>
-                        <li class="qh_con5xalix"><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="科技产业网"><img src="{{url(\App\Lable::ImgUrl())}}"></a><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="科技产业网">科技产业网</a></li>
+                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="文献检索"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}"></a><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="文献检索">文献检索</a></li>
+                        <li class="qh_con5xalix"><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="科技产业网"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}"></a><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="科技产业网">科技产业网</a></li>
                     </ul>
                     <ul class="qh_con5xaulx">
-                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="信息化工作网"><img src="{{url(\App\Lable::ImgUrl())}}"></a><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="信息化工作网">信息化工作网</a></li>
-                        <li class="qh_con5xalix qh_con5xaliy"><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="科技条件信息平台"><img src="{{url(\App\Lable::ImgUrl())}}"></a><br class="clear"><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="科技条件信息平台">科技条件信息平台</a></li>
+                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="信息化工作网"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}"></a><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="信息化工作网">信息化工作网</a></li>
+                        <li class="qh_con5xalix qh_con5xaliy"><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="科技条件信息平台"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}"></a><br class="clear"><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="科技条件信息平台">科技条件信息平台</a></li>
                     </ul>
                 </div>
                 <div class="qh_con5xb">
@@ -501,17 +501,17 @@
                     <h3>期刊<a href="{{\App\Lable::LinkUrl()}}">更多</a></h3>
 
                     <ul>
-                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="{{url(\App\Lable::ImgUrl())}}" width="72" height="96"></a></li>
+                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" width="72" height="96"></a></li>
                         <li class="qh_con5xblix"><h4><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="中国科学院院刊">中国科学院院刊</a></h4><p>《中国科学院院刊》（中文版），{{\App\Lable::Title()}}</p></li>
                     </ul>
 
                     <ul>
-                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="{{url(\App\Lable::ImgUrl())}}" width="72" height="96"></a></li>
+                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" width="72" height="96"></a></li>
                         <li class="qh_con5xblix"><h4><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="科学通报">科学通报</a></h4><p>《科学通报》是自然科学综合性学术刊物，{{\App\Lable::Title()}}</p></li>
                     </ul>
 
                     <ul>
-                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="{{url(\App\Lable::ImgUrl())}}" width="72" height="96"></a></li>
+                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" width="72" height="96"></a></li>
                         <li class="qh_con5xblix"><h4><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="中国科学">中国科学</a></h4><p>覆盖数学、物理、化学、生命科学，{{\App\Lable::Title()}}</p></li>
                     </ul>
 
@@ -527,7 +527,7 @@
                                     <td><input class="qh_con5xb1inputx" name="monograph_zzmc" id="monograph_zzmc" type="text"></td>
                                     <td>主编名称</td>
                                     <td><input class="qh_con5xb1inputx" name="monograph_zb" id="monograph_zb" type="text"></td>
-                                    <td><input name="imageField2" type="image" src="{{url(\App\Lable::ImgUrl())}}" id="imageField2"></td>
+                                    <td><input name="imageField2" type="image" src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" id="imageField2"></td>
                                 </tr>
                                 </tbody></table>
 
@@ -537,17 +537,17 @@
                     <h3>电子杂志<a href="{{\App\Lable::LinkUrl()}}">更多</a></h3>
 
                     <ul>
-                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="{{url(\App\Lable::ImgUrl())}}" width="72" height="96"></a></li>
+                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" width="72" height="96"></a></li>
                         <li class="qh_con5xblix"><h4><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="中科院之声电子杂志">中科院之声电子杂志</a></h4><p></p></li>
                     </ul>
 
                     <ul>
-                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="{{url(\App\Lable::ImgUrl())}}" width="72" height="96"></a></li>
+                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" width="72" height="96"></a></li>
                         <li class="qh_con5xblix"><h4><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="科学网电子杂志">科学网电子杂志</a></h4><p></p></li>
                     </ul>
 
                     <ul>
-                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="{{url(\App\Lable::ImgUrl())}}" width="72" height="96"></a></li>
+                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" width="72" height="96"></a></li>
                         <li class="qh_con5xblix"><h4><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="科普博览电子杂志">科普博览电子杂志</a></h4><p></p></li>
                     </ul>
 
@@ -559,8 +559,8 @@
                 <div class="qh_con6xa">
 
                     <ul>
-                        <li class="qh_con6xalix"><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="{{url(\App\Lable::ImgUrl())}}" width="190" height="49"></a></li>
-                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="{{url(\App\Lable::ImgUrl())}}" width="221" height="59"></a></li>
+                        <li class="qh_con6xalix"><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" width="190" height="49"></a></li>
+                        <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" width="221" height="59"></a></li>
                     </ul>
                     <h2><span>科普场馆</span><a href="{{\App\Lable::LinkUrl()}}">更多</a></h2>
 
@@ -592,7 +592,7 @@
 
             @foreach(\App\Lable::LinkUrl(4) as $item)
                     <ul>
-                        <li class="qh_con5xbliy"><a href="{{$item}}" target="_blank"><img src="{{url(\App\Lable::ImgUrl())}}" width="91" height="64"></a></li>
+                        <li class="qh_con5xbliy"><a href="{{$item}}" target="_blank"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" width="91" height="64"></a></li>
                         <li class="qh_con5xblix"><h4><a href="{{\App\Lable::LinkUrl()}}" target="_blank" title="{{$title = \App\Lable::Title()}}">{{$title}}</a></h4><p>{{\App\Lable::Title()}}</p></li>
                     </ul>
             @endforeach
@@ -637,7 +637,7 @@
                         @endforeach
 
                     </ul>
-                    <a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="{{url(\App\Lable::ImgUrl())}}"></a>
+                    <a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}"></a>
                 </div>
                 <div class="qh_con7xb">
                     <h2><span>反腐倡廉</span><a href="{{\App\Lable::LinkUrl()}}">更多</a></h2>
@@ -651,7 +651,7 @@
                         @endforeach
 
                     </ul>
-                    <a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="{{url(\App\Lable::ImgUrl())}}"></a>
+                    <a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}"></a>
                 </div>
                 <div class="qh_con7xc">
                     <h2><span>文明天地</span><a href="{{\App\Lable::LinkUrl()}}" apph0u576941188="" 8c84.html"="">更多</a></h2>
@@ -668,19 +668,19 @@
                     <h2>副刊专题</h2>
                     <dl>
 
-                        <dd><img src="{{url(\App\Lable::ImgUrl())}}">
+                        <dd><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}">
                             <span><a href="{{\App\Lable::LinkUrl()}}" title="诗歌">诗歌</a></span>
                         </dd>
 
-                        <dd><img src="{{url(\App\Lable::ImgUrl())}}">
+                        <dd><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}">
                             <span><a href="{{\App\Lable::LinkUrl()}}" title="书画">书画</a></span>
                         </dd>
 
-                        <dd><img src="{{url(\App\Lable::ImgUrl())}}">
+                        <dd><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}">
                             <span><a href="{{\App\Lable::LinkUrl()}}" title="摄影">摄影</a></span>
                         </dd>
 
-                        <dd><img src="{{url(\App\Lable::ImgUrl())}}">
+                        <dd><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}">
                             <span><a href="{{\App\Lable::LinkUrl()}}" title="散文">散文</a></span>
                         </dd>
 
@@ -693,15 +693,15 @@
             .qh_con8xa h2 a,.qh_con8xb h2 a,.qh_con8xc h2 a{color: #066ab0; font-size: 20px; font-family: "微软雅黑";}
 
             .hei20{font-family:"微软雅黑"; font-size:20px; color:#2b2b2b; padding-bottom:10px;}
-            .scyhei20{background:url({{url(\App\Lable::ImgUrl())}}) no-repeat 20px;}
-            .scyhei201{background:url({{url(\App\Lable::ImgUrl())}}) no-repeat 35px;}
-            .scyhei202{background:url({{url(\App\Lable::ImgUrl())}}) no-repeat 38px;}
+            .scyhei20{background:url(/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}) no-repeat 20px;}
+            .scyhei201{background:url(/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}) no-repeat 35px;}
+            .scyhei202{background:url(/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}) no-repeat 38px;}
 
             .lan16_28{font-size:16px; color:#066ab0; text-decoration:none; font-family:"微软雅黑"; line-height:28px;}
             a:hover{text-decoration:underline;}
             .hui12_18h{font-size:12px; line-height:18px; color:#313131; text-decoration:none;}
-            .scyxxgk1{background:url({{url(\App\Lable::ImgUrl())}}) no-repeat 20px;}
-            .scyxxgk{background:url({{url(\App\Lable::ImgUrl())}}) no-repeat;}
+            .scyxxgk1{background:url(/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}) no-repeat 20px;}
+            .scyxxgk{background:url(/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}) no-repeat;}
 
         </style>
 
@@ -1258,7 +1258,7 @@
         <div class="cztxxb1z">
             <!--分享-->
             <div class="bshare-custom" style="background:#fff;width:90px;border:1px solid #e5e5e5;padding:6px 0 6px 4px;position:absolute;top:12px;left:580px;">
-                <span style="color:#077fd3; cursor:pointer;background:url(/{{url(\App\Lable::ImgUrl())}}) no-repeat right;" title="分享到" href="{{\App\Lable::LinkUrl()}}" id="bshare-shareto" class="">我要分享 &nbsp;</span><br>
+                <span style="color:#077fd3; cursor:pointer;background:url(//{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}) no-repeat right;" title="分享到" href="{{\App\Lable::LinkUrl()}}" id="bshare-shareto" class="">我要分享 &nbsp;</span><br>
 
                 <div id="ld_fxhide" style="display:none;padding-top:10px;">
                     <a style="margin-bottom:8px;color:#595959;font-weight:bold;" title="分享到新浪微博" class="bshare-sinaminiblog">新浪微博</a><br>
@@ -1372,7 +1372,7 @@
 
             @foreach(\App\Lable::LinkUrl(5) as $item)
             <ul>
-                <li class="cztxxb2bli1"><img src="{{url(\App\Lable::ImgUrl())}}" width="114" height="78"><span><a href="{{$item}}" target="_blank"><img src="{{url(\App\Lable::ImgUrl())}}" width="114" height="78"></a></span></li>
+                <li class="cztxxb2bli1"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" width="114" height="78"><span><a href="{{$item}}" target="_blank"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" width="114" height="78"></a></span></li>
                 <li class="cztxxb2bli2"><a href="{{$item}}" target="_blank" title="{{\App\Lable::Title()}}">【新闻联播】{{\App\Lable::Title()}}</a></li>
             </ul>
             @endforeach
@@ -1385,9 +1385,9 @@
 
             <ul>
 
-                <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="{{url(\App\Lable::ImgUrl())}}" width="263" height="70"></a></li>
+                <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" width="263" height="70"></a></li>
 
-                <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="{{url(\App\Lable::ImgUrl())}}" width="263" height="70"></a></li>
+                <li><a href="{{\App\Lable::LinkUrl()}}" target="_blank"><img src="/{{env('MULU')}}/{{url(\App\Lable::ImgUrl())}}" width="263" height="70"></a></li>
 
             </ul>
 

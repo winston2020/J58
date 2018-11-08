@@ -3,11 +3,11 @@
     <meta http-equiv="Cache-Control" content="no-siterpg">
     <meta http-equiv="Cache-Control" content="no-transform">
     <title>{{ $bckeword = \App\Lable::BcKeyword()  }}</title>
-    <link href="/pdd/css/ch_css_ch_2014.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="/pdd/js/jquery.js"></script>
-    <script type="text/javascript" src="/pdd/js/koala.min.1.5.js'"></script>
-    <script type="text/javascript" src="/pdd/js/js.js"></script>
-    <script language="JavaScript" type="text/javascript" src="/pdd/js/ch_js_ch_2014.js"></script>
+    <link href="/{{env('MULU')}}/css/ch_css_ch_2014.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/{{env('MULU')}}/js/jquery.js"></script>
+    <script type="text/javascript" src="/{{env('MULU')}}/js/koala.min.1.5.js'"></script>
+    <script type="text/javascript" src="/{{env('MULU')}}/js/js.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/{{env('MULU')}}/js/ch_js_ch_2014.js"></script>
     <script>
         (function(){
             var canonicalURL, curProtocol;
@@ -1433,9 +1433,9 @@
 
         <div class="cfootbx" style="background:none; height:70px;">
             <p class="cfootbxp1" style="padding-left:110px;">&#169; 1996 - 2017 中国科学院 版权所有 京ICP备{{rand(100000,999999)}}号&nbsp;&nbsp;京公网安备{{rand(100000,999999)}}号&nbsp;&nbsp;<a href="{{\App\Lable::LinkUrl()}}" target="_blank">可信网站身份验证</a>&nbsp;
-                &nbsp;<a href="/pdd/sitemap.xml" target="_blank">联系我们</a>&nbsp;
-                &nbsp;<a href="/pdd/sitemap.xml" target="_blank">站点地图</a>&nbsp;
-                &nbsp;<a href="/pdd/sitemap.xml" target="_blank">RSS订阅</a>
+                &nbsp;<a href="/{{env('MULU')}}/sitemap.xml" target="_blank">联系我们</a>&nbsp;
+                &nbsp;<a href="/{{env('MULU')}}/sitemap.xml" target="_blank">站点地图</a>&nbsp;
+                &nbsp;<a href="/{{env('MULU')}}/sitemap.xml" target="_blank">RSS订阅</a>
             </p>
 
         </div>

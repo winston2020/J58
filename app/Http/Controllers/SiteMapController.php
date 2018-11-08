@@ -9,12 +9,12 @@ class SiteMapController extends Controller
     {
         for ($i=0;$i<200;$i++){
             $pre = env('MULU_HOST').env('MULU');
-            $mulu[] = $pre.str_random(6).'/';
+            $mulu[] = $pre.'/'.str_random(6).'/';
         }
 
         for ($i=0;$i<1500;$i++){
             $pre = env('MULU_HOST').env('MULU');
-            $data[] = $pre.str_random(6).'/'.rand(100000,999999).'/';
+            $data[] = $pre.'/'.str_random(6).'/'.rand(100000,999999).'/';
         }
 
         return response()->view('sitemap', [
